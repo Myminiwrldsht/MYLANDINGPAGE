@@ -1,0 +1,25 @@
+.header {
+  background: black;
+  color: white;
+  font-size: 40px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.products {
+  margin-top: 20px;
+}
+
+.categories {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
