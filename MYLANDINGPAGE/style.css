@@ -1,0 +1,88 @@
+ body{
+     font-family: 'Arial', sans-serif;
+    background-color: #CDDAE2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    font-family: 'Georgia', serif;
+    font-size: x-large;
+    background: linear-gradient(135deg, #f0edef 0%, #5fbede 100%);
+    color: #430c5c;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.header h1 {
+    margin-bottom: 1.5rem;
+}
+
+.header nav a{
+    color: #430c5c;
+    text-decoration: none;
+    font-weight: normal;
+    transition: color 0.3s ease;
+     width: 50px;
+    margin: 0px auto;
+    padding: 20px;
+  
+    
+}
+
+main{
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6e27b6;
+}
+
+.about{
+  background: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #5fbede;
+}
+
+
+.gratitude{
+    background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #e382ec;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+ 
+
+    
+}
+
+.footer{
+   background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #f2eaf8;
+  text-align: center;
+  background: linear-gradient(135deg, #f1edf1 0%, #5fbede 100%);
+}
+
+
+
+

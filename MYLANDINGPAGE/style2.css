@@ -1,0 +1,117 @@
+body{
+     font-family: 'Arial', sans-serif;
+    background-color: #CDDAE2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-family: 'Georgia', serif;
+    font-size: x-large;
+    background: linear-gradient(135deg, #f0edef 0%, #5fbede 100%);
+    color: #430c5c;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+.header h1 {
+    margin-bottom: 1.5rem;
+}
+
+
+.header nav a{
+    color: #430c5c;
+    text-decoration: none;
+    font-weight: normal;
+    transition: color 0.3s ease;
+     width: 50px;
+    margin: 0px auto;
+    padding: 20px;
+  
+    
+}
+
+.products{
+     background: rgb(255, 255, 255);
+     padding: 2rem;
+     border-radius: 12px;
+     margin-bottom: 2rem;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #5fbede;
+}
+
+h2{
+     font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6e27b6;
+
+}
+
+h3{
+       font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6e27b6;
+}
+
+.categories li {
+    display: inline-block;
+}
+
+
+.polaroid {
+    width: 280px;
+    height: 350px;
+    padding: 15px 15px 40px 15px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.polaroid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.polaroid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.polaroid-caption {
+    font-family: 'Georgia', serif;
+    font-size: 0.75rem;
+    color: #333;
+    margin-top: 5px;
+    line-height: 1.2;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.footer{ background: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #5fbede;
+}
